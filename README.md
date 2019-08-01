@@ -9,6 +9,14 @@
     2. update the route.rb adding root path
 3. Add a button at home page. By clicking this button one CSV file will be downloaded where CSV file will contain 50
 Users record i.e. user_name, user_email, phone_number. This users list should be ordered by their names.
+    1. install faker gem
+    2. create model User with the fields
+    3. rum migrations
+    4. add data from faker by updating seed file
+    5. rum seed file
+    6. update the controller Home
+    7. update the view home/index.html.erb
+    8. update the model User
 4. Add a button at home page. By clicking this button one PDF file will be downloaded where PDF file will contain 50
 Employees record i.e. name, email, phone_number. This employees list should be ordered by their names.
 5. Add a button at home page. By clicking this button one mail will be fired where mail will contain 50 Students record
