@@ -5,8 +5,8 @@
     2. update the mysql password in config/database.yml
     3. run command 'rails db:migrate'
 2. Setup root_path with index action of HomeController for this application.
-    1. rails generate controller 
-    2. rails g controller Home index
+    1. rails g controller Home index
+    2. update the route.rb adding root path
 3. Add a button at home page. By clicking this button one CSV file will be downloaded where CSV file will contain 50
 Users record i.e. user_name, user_email, phone_number. This users list should be ordered by their names.
 4. Add a button at home page. By clicking this button one PDF file will be downloaded where PDF file will contain 50
