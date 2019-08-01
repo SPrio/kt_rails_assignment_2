@@ -11,9 +11,9 @@
 Users record i.e. user_name, user_email, phone_number. This users list should be ordered by their names.
     1. install faker gem
     2. create model User with the fields
-    3. rum migrations
+    3. run migrations
     4. add data from faker by updating seed file
-    5. rum seed file
+    5. run seed file
     6. update the controller Home
     7. update the view home/index.html.erb
     8. update the model User
