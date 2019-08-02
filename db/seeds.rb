@@ -29,3 +29,10 @@ end
     phone_number: Faker::Number.number(digits: 10)
   }])
 end
+
+10.times do 
+  Client.create([{
+    name: Faker::Name.name,
+    email: Faker::Internet.email
+  }])
+end
