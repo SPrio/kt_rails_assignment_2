@@ -21,3 +21,11 @@ end
     phone_number: Faker::Number.number(digits: 10)
   }])
 end
+
+70.times do 
+  Student.create([{
+    name: Faker::Name.name,
+    email: Faker::Internet.email,
+    phone_number: Faker::Number.number(digits: 10)
+  }])
+end

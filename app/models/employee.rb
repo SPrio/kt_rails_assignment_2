@@ -1,6 +1,7 @@
 class Employee < ApplicationRecord  
-  def self.to_pdf
-    employees = Employee.order(:name).all.limit 50
+  def self.to_pdf(employees)
+    #puts self
+    #employees = Employee.order(:name).all.limit 50
     Prawn::Document.new do
       data = Array.new(50, Array.new(4))
       #puts employees.all.each {|x| puts x}
