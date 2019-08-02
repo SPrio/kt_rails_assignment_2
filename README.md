@@ -14,11 +14,20 @@ Users record i.e. user_name, user_email, phone_number. This users list should be
     3. run migrations
     4. add data from faker by updating seed file
     5. run seed file
-    6. update the controller Home
-    7. update the view home/index.html.erb
-    8. update the model User
+    6. add require csv in application.rb to work with csv
+    7. update the controller Home
+    8. update the view home/index.html.erb
+    9. update the model User
 4. Add a button at home page. By clicking this button one PDF file will be downloaded where PDF file will contain 50
 Employees record i.e. name, email, phone_number. This employees list should be ordered by their names.
+    1. create model Employee with the fields
+    2. run migrations
+    3. add data from faker by updating the seed file
+    4. run seed file
+    5. install prawn gem to work with pdf and add require prawn in application.rb
+    6. update the controller Home
+    7. update the view home/index.html.erb
+    8. update the model Employee
 5. Add a button at home page. By clicking this button one mail will be fired where mail will contain 50 Students record
 i.e. name, email, phone_number. This students list should be ordered by their names.
 6. Add a form to ImagesController where we could upload an image and store them. There will be a page where we

@@ -1,3 +1,4 @@
 <h1>View for the Home Controller's index action</h1>
-<%= button_to "Export CSV", home_index_path(format: :csv) , :method => :get%>
+<%= button_to "Download CSV", home_index_path(format: :csv) , :method => :get%>
+<%= button_to "Download PDF", home_index_path(format: :pdf) , :method => :get%>
 
