@@ -83,4 +83,4 @@ where input value of search field is case insensitive and would be full or part 
   1. rails db:migrate
   2. rails db:seed
 ### Open the web browser:
-  1. enter the link [project link](http://localhost:3000)
+  1. enter the link [http://localhost:3000](http://localhost:3000)
