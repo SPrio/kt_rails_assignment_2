@@ -63,7 +63,7 @@ could see all the images and by clicking on this image name we could see this im
 Use database level validation also where required.
 Above index page should contain a search form by which we could search an object with their name or email
 where input value of search field is case insensitive and would be full or part of object's name or email.
-  ###Steps:
+  ### Steps:
     1. create model client with the fields
     2. create controller client
     3. create routes for controller
@@ -76,10 +76,10 @@ where input value of search field is case insensitive and would be full or part 
     10. add search form in index view
     11. update the controller and model with respect to that
 
-##Steps to run the project:
-###Run these commands in one terminal:
+## Steps to run the project:
+### Run these commands in one terminal:
   1. rails server
-###Run these commands in another terminal:
+### Run these commands in another terminal:
   1. rails db:migrate
   2. rails db:seed
-###Open 'localhost:3000' in web browser.
+### Open 'localhost:3000' in web browser.
