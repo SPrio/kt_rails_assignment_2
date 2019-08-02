@@ -36,18 +36,27 @@ Employees record i.e. name, email, phone_number. This employees list should be o
 i.e. name, email, phone_number. This students list should be ordered by their names.
   ### Steps:
     1. create model Student with the fields
-    2. rum migrations
+    2. run migrations
     3. add data from faker by updating the seed file
     4. run seed file
     5. install letter_opener gem to work with emails
     6. update the config/development.rb
-    7. rails g mailer StudentMailer
+    7. run rails g mailer StudentMailer
     8. update the mailer
     9. update the mailer view
     10. update the controller
     11. Then new mail will open in new tab
 6. Add a form to ImagesController where we could upload an image and store them. There will be a page where we
 could see all the images and by clicking on this image name we could see this image.
+  ### Steps:
+    1. install paperclip gem
+    2. generate controller image 
+    3. generate model image
+    4. generate paperclip image avatar
+    5. run migrations
+    6. add blank submission validation to model
+    7. update the controller
+    8. update the view
 7. Add a controller with CRUD operation for a model where this model contains the following attributes:
     1. name, this field should not be null and should be unique.
     2. email, this field should not be null, should be unique and should be validated with email format.

@@ -67,3 +67,5 @@ gem 'prawn'
 gem 'prawn-table'
 
 gem 'letter_opener'
+
+gem "paperclip", "~> 6.0.0"
