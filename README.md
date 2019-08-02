@@ -60,7 +60,7 @@ could see all the images and by clicking on this image name we could see this im
 7. Add a controller with CRUD operation for a model where this model contains the following attributes:
     1. name, this field should not be null and should be unique.
     2. email, this field should not be null, should be unique and should be validated with email format.
-    Use database level validation also where required.Above index page should contain a search form by which we could search an object with their name or email where input value of search field is case insensitive and would be full or part of object's name or email.
+Use database level validation also where required.Above index page should contain a search form by which we could search an object with their name or email where input value of search field is case insensitive and would be full or part of object's name or email.
 ### Steps:
     1. create model client with the fields
     2. create controller client
@@ -70,7 +70,7 @@ could see all the images and by clicking on this image name we could see this im
     6. run seed file
     7. update the model and add validation
     8. update the controller with CRUD operations
-    9 update the view
+    9  update the view
     10. add search form in index view
     11. update the controller and model with respect to that
 
