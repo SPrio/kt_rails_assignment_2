@@ -14,7 +14,7 @@ class ImagesController < ApplicationController
     if @image.save
       redirect_to images_path
     else
-      render 'new'
+      render "new"
       
     end 
   end

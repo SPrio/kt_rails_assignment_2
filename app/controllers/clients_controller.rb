@@ -23,7 +23,7 @@ class ClientsController < ApplicationController
     if @client.save
       redirect_to @client
     else
-      render 'new'
+      render "new"
     end
   end
   def update
@@ -32,7 +32,7 @@ class ClientsController < ApplicationController
     if @client.update(client_params)
       redirect_to clients_path
     else
-      render 'edit'
+      render "edit"
     end
   end
   def destroy
