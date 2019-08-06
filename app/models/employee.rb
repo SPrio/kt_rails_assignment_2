@@ -6,10 +6,12 @@ class Employee < ApplicationRecord
       data = Array.new(50, Array.new(4))
       #puts employees.all.each {|x| puts x}
       data = [employees.column_names.map(&:humanize)]
+      #table(data)
       employees.each do |employee|
         data.push([employee.id,employee.name,employee.email,employee.phone_number])
+        #table([[employee.id,employee.name,employee.email,employee.phone_number]])
       end
-      table(data)
+      table(data, header: true)
     end.render
   end
 end
