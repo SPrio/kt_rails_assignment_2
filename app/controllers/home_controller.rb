@@ -7,8 +7,7 @@ class HomeController < ApplicationController
     end  
   end
   def sending_mail
-    @students = Student.order(:name).all.limit 50
-    StudentMailer.send_mail(Student.new(email: "mahantasupriyo@gmail.com"),@students).deliver
+    StudentMailer.send_mail(Student.new(email: "mahantasupriyo@gmail.com"),get_data(Student)).deliver
     redirect_to root_path
   end  
   def get_data(model)

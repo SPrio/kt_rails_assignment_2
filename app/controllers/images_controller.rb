@@ -1,24 +1,24 @@
 class ImagesController < ApplicationController
-
+  before_action :get_image, only: [:index, :show]
   def index
-    @images = Image.all
   end
   def new
     @image = Image.new
   end
   def show
-    @image = Image.all
   end
   def create
     @image = Image.new(image_params)
     if @image.save
       redirect_to images_path
     else
-      render "new"
-      
+      render "new"    
     end 
   end
-
+  def get_image
+    @images = Image.all
+  end
+  
   private
   
   # Use strong_parameters for attribute whitelisting
