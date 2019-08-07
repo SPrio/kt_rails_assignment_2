@@ -4,7 +4,7 @@
 <%= link_to "Home Page", home_index_path %>
 <h3>Search a Client</h3>
 
-<%= form_tag({controller: "clients", action: "index"}, method: :get) do %>
+<%= form_tag("/clients", method: :get) do %>
   <p>
     <%= text_field_tag :search, params[:search], placeholder: "Search with name or email" %>
     <%= submit_tag "Search Clients" %>

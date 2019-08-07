@@ -1,14 +1,14 @@
 <table border='2px solid black'>
-<tr>
-<th>Name</th>
-<th>Email</th>
-<th>Phone Number</th>
-</tr>
-<%@students.each do |student|%>
-<tr>
-<td><%=student.name%></td>
-<td><%=student.email%></td>
-<td><%=student.phone_number%></td>
-</tr>
-<% end %>
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Phone Number</th>
+  </tr>
+  <% @students.each do |student| %>
+    <tr>
+    <td><%= student.name %></td>
+    <td><%= student.email %></td>
+    <td><%= student.phone_number %></td>
+    </tr>
+  <% end %>
 </table>
