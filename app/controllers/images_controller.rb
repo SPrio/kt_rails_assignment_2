@@ -1,5 +1,5 @@
 class ImagesController < ApplicationController
-
+  
   before_action :get_image, only: [:index, :show]
 
   def index
