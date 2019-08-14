@@ -4,7 +4,8 @@
   ### Steps:
     1. rails new kt_assignment_2 -d mysql
     2. update the mysql password in config/database.yml
-    3. run command 'rails db:migrate'
+    3. run command 'rails db:create'
+    4. run command 'rails db:migrate'
 2. Setup root_path with index action of HomeController for this application.
   ### Steps:
     1. rails g controller Home index
